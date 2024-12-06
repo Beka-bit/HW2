@@ -23,9 +23,9 @@
 
 
 // task2
-let clas1= ["Amina", "Adil", "Alina"];
-let clas2=["Berik", "Bakit", "Baian"];
+// let clas1= ["Amina", "Adil", "Alina"];
+// let clas2=["Berik", "Bakit", "Baian"];
 
-let qosu=["Director", ...clas1, ...clas2, "Mygalim"];
+// let qosu=["Director", ...clas1, ...clas2, "Mygalim"];
 
-console.log(qosu);
+// console.log(qosu);
