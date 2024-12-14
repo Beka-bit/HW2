@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events</title>
+</head>
+<body>
+    <div id="optom">
+        <p>ACS-ке анонимді пікір қалдыру:</p>
+        <div id="div1">
+            <label for="tanday">Тобыңыз:</label>
+            <select id="tanday">
+                <option value="">Топты таңдаңыз</option>
+                <option value="24/1">24/1</option>
+                <option value="24/2">24/2</option>
+                <option value="24/3">24/3</option>
+            </select>
+        </div>
+
+        <div id="div2">
+            <label for="sozJazy">Пікіріңізді жазыңыз:</label>
+            <textarea id="sozJazy" placeholder="Пікіріңізді жазыңыз..."></textarea>
+        </div>
+
+        <div id="div3">
+            <label for="rating">Оқу орталықты бағалаңыз (0-10):</label>
+            <input type="range" id="rating" min="0" max="10" value="5">
+            <span id="ratingValue">5</span>
+        </div>
+
+        <div id="div4">
+            <button id="submit">Форманы жіберу</button>
+        </div>
+
+        <p id="error-message"></p>
+    </div>
+
+    <script src="js/style.js"></script>
+</body>
+</html>
